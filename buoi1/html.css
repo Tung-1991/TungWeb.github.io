@@ -1,25 +1,29 @@
+.main{
+    border-style: double;
+    margin: 200px;
+    text-align: center;
+}
 .quochuy{
     font-size: 30px;
     color: red;
-    margin-left: 550px;
 }
 
 .dut{
     font-size: 25px;
-    margin-left: 650px;;
 }
 
 .lylich{
     color: blue;
-    margin-left: 20px;
     font-size: 18px;
 }
 
 .gioithieu{
+    margin-left: 10px;
+    text-align: start;
     font-size: 18px;
-    margin-left: 15px;
+    
 }
 
 #anh{
-    margin-left: 655px;
+    border-radius: 20%;
 }
