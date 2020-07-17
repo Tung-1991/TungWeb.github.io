@@ -1,0 +1,17 @@
+#menu{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+#menu li a{
+    padding: 20px;
+    text-decoration: none;
+}
+
+#zc1{
+    display: flex;
+}
+
