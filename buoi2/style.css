@@ -1,7 +1,6 @@
 body{
     background-color: aliceblue;
 }
-
 header{
     display: flex;
     align-items: center;
@@ -11,46 +10,38 @@ header{
     margin: 25px;
     border-style: double;
 }
-
 .logo{
     max-width: 150px;
     width: 100%;
 }
-
 #tc{
     font-size: 18px;
     border-style: double;
     background-color: aliceblue;
     margin-left: 40px;
 }
-
 .acc{
     font-size: 18px;
     max-width: 150px;
     width: 100%;
 }
-
 #lr{
     border-style: double;
     background-color: aliceblue;
     margin: 10px;
 }
-
 main{
     border-style: dotted;
 }
-
 .wrapper{
     padding-left: 100px;
     padding-right: 100px;
 }
-
 .title{
     border-style: double;
     margin-top: 50px;
     text-align: center;
 }
-
 .luoi{
     display: grid;
     padding-bottom: 100px;
@@ -58,16 +49,13 @@ main{
     grid-template-columns: repeat(12,1fr);
     gap:20px;
 }
-
 .item{
     grid-column: span 4;
     border-style: groove;
 }
-
 .item  a img{
     width: 100%;
 }
-
 footer{
     display: flex;
     align-items: center;
@@ -79,12 +67,40 @@ footer{
     margin-right: 350px;
     border-style: double;
 }
-
 .social{
     display: flex;
     margin: 10px;
 }
-
 .social-item{
     margin: 10px;
+}
+#menu{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+#menu li a{
+    display:block;
+    padding: 20px;
+    text-decoration: none;
+}
+#menu li a:hover{
+    color: red;
+}
+#menu li ul{
+    display: none; 
+    margin: 0px;
+    padding: 0px;
+}
+#menu li:hover ul{
+    display: block;
+    background-color: aliceblue;
+}
+.zc{
+    display: flex;
+}
+#menu li {
+    padding: 10px;
+    display:block;
 }

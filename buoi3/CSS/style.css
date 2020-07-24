@@ -1,17 +1,31 @@
 #menu{
     display: flex;
 }
-
 li{
     list-style-type: none;
 }
-
 #menu li a{
+    display:block;
     padding: 20px;
     text-decoration: none;
 }
+#menu li a:hover{
+    color: red;
+}
+#menu li ul{
+    display: none; 
+    margin: 0px;
+    padding: 0px;
+}
+#menu li:hover ul{
+    display: block;
+    background-color: aliceblue;
 
-#zc1{
+}
+.zc{
     display: flex;
 }
-
+#menu li {
+    padding: 10px;
+    display:block;
+}
