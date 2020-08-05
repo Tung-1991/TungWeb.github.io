@@ -30,16 +30,12 @@ header{
     background-color: aliceblue;
     margin: 10px;
 }
-main{
-    border-style: dotted;
-}
 .wrapper{
     padding-left: 100px;
     padding-right: 100px;
 }
 .title{
-    border-style: double;
-    margin-top: 50px;
+    margin: 0 auto;
     text-align: center;
 }
 .luoi{
@@ -55,6 +51,9 @@ main{
 }
 .item  a img{
     width: 100%;
+}
+.scale:hover{
+    transform: scale(1.1,1.1);
 }
 footer{
     display: flex;
@@ -74,33 +73,63 @@ footer{
 .social-item{
     margin: 10px;
 }
-#menu{
-    display: flex;
+
+ol, ul {
+	list-style: none;
 }
-li{
-    list-style-type: none;
+.menu{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 1000px;
+    margin: 0 auto;
 }
-#menu li a{
-    display:block;
-    padding: 20px;
-    text-decoration: none;
+.menu>li{
+	font-weight: 500;
+	width: 100%;
+	padding: 15px 0;
+	display: inline-block;
+	font-size: 20px;
+	display: block;
 }
-#menu li a:hover{
-    color: red;
+.tieude{
+	font-weight: 700;
+	font-size: 14px;
 }
-#menu li ul{
-    display: none; 
-    margin: 0px;
-    padding: 0px;
+.zingdrop{
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	display: none;
+	color: black;
+	max-width: 600px;
+	font-size: 14px;
 }
-#menu li:hover ul{
-    display: block;
-    background-color: aliceblue;
+.zing:hover .zingdrop{
+	display: flex;
+	justify-content: space-around;
+	color: black;
+	margin-right: 20px;
+	width: 100%;
+    padding-top: 20px;
+    background-color: whitesmoke;
 }
-.zc{
-    display: flex;
+.cot{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	line-height: 30px;
 }
-#menu li {
-    padding: 10px;
-    display:block;
+li a{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	transform: 0.5s;
+	transition: border 0.3s ease-in-out;
+	border:2px solid transparent;
+}
+li>a:hover{
+	border-bottom: 2px solid #65509e;
+    color: #6e55b4;
+    border-radius: 3.35px;
 }
