@@ -1,0 +1,38 @@
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+.container{
+    margin-top: 50px;
+    position: relative;
+}
+.overlay{
+    width: 300px;
+    margin:0 auto;
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    margin-top: 135px;
+    text-align: center;
+}
+.overlay:hover {
+    opacity: 0.7;
+}
+.item img{
+    margin:0 auto;
+    width: 100%;
+    object-fit:cover;
+    height: 300px;
+}
+.item{
+    margin: 25px;
+}

@@ -1,0 +1,37 @@
+body{
+    margin-top: 400px;
+    margin-left: 200px;
+}
+.moving{
+	position: relative;
+	animation: moving 5s infinite;
+}
+.front{
+	width: 300px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+}
+.beforewheel{
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+}
+.aferwheel{
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+}
+@keyframes moving{
+	0%{left: 0px;top: 0px;}
+    50%{left: 600px;top: 0px; }
+    75%{transform: rotate(10deg) }
+	100%{left: 900px;top: 300px;}
+} 
